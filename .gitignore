@@ -1,0 +1,54 @@
+# ======================
+# Node.js / Frontend
+# ======================
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development
+.env.production
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vite/
+
+# React specific
+*.log
+.cache/
+*.env
+.DS_Store
+
+# ======================
+# Python / Backend
+# ======================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+instance/
+*.egg-info/
+*.egg
+*.pkl
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Uvicorn reload warning fix
+*.pid
+
+# ======================
+# VSCode and OS junk
+# ======================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ======================
+# Git Submodule/Embedded Repo Fix
+# ======================
+expense-tracker-frontend/.git/
